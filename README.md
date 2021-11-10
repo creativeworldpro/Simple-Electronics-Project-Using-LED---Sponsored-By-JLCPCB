@@ -31,19 +31,19 @@ Supplies
 
 LED Flasher Design - 
 
-The schematic of this led flasher  circuit, along with the PCB layout can be seen above. The NE555 IC will be used to make a super bright led flasher circuit. There don’t have any potentiometer to adjust the speed of this LED flasher circuit.
+The NE555 IC will be used to make a super bright led flasher circuit. There don’t have any potentiometer to adjust the speed of this LED flasher circuit.
 
 
 
 Soldering IC Base and Power Supply Socket - 
 
-Once the PCB is designed and printed, then you can start soldering the IC base and power supply socket, as seen in this image above. Be careful, so that there don’t have any short circuit connection. We utilize JLCPCB  https://jlcpcb.com/RTA) to printout our PCB.
+Once the PCB is designed and printed, then you can start soldering the IC base and power supply socket. Be careful, so that there don’t have any short circuit connection. We need to connect 2 and 6 no leg of NE555 IC, then we need to connect 4 and 8 no leg of timer IC NE555.  We utilize JLCPCB  https://jlcpcb.com/RTA) to printout our PCB.
 
 
 Connecting Resistor and Capacitor- 
 
-After connecting IC base and power socket, we need to connect resistor and capacitor with the circuit. We know that, we use this capacitor - 100µf/25v and this Resistors – 68 KΩ, 1 KΩ to make this circuit. You should not use another parts except this component.
-
+After connecting IC base and power socket, we need to connect resistor and capacitor with the circuit. We know that, we use this capacitor - 100µf/25v and this Resistors – 68 KΩ, 1 KΩ to make this circuit. You should not use another parts except this component. We connect this resistor with 6, 7 and 8 no leg of timer IC. We connect 1k resistor with 8 no leg and connect 68 k resistor with 6no leg of timer IC NE555. Then we connect capacitor negative leg with 
+ 1no leg of IC and connect capacitor postive leg with 2no leg of IC.
 
 Connecting LED-
 

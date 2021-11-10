@@ -47,7 +47,7 @@ After connecting IC base and power socket, we need to connect resistor and capac
 
 Connecting LED-
 
-We need to remember that all LED should be 5mm and to get perfect effect of this circuit, we need to use different color LED for different side. We use green and blue color LED lights.
+We need to remember that all LED should be 5mm and to get perfect effect of this circuit, we need to use different color LED for different side. We use green and blue color LED lights. Then we nned to make a parallel connection with these LED lights. Then connect all LED positive leg with 4no leg of time IC and connect LED negative leg with 3no leg of timer IC.
 
 
 Soldering And Cleaning-
